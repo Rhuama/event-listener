@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -25,6 +26,10 @@ export default function Home() {
               priority
             />
           </a>
+
+          <div>
+            <Link href="/connection">Conecte com seu gmail</Link>
+          </div>
         </div>
       </div>
 
