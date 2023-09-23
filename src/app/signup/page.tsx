@@ -94,7 +94,7 @@ export default function SignUp() {
                 htmlFor="password"
                 className="block text-sm font-medium leading-6 text-white-900"
               >
-                Certo, agora é só confirmar a sua senha
+                Certo, agora é só escolher uma senha
               </label>
 
               <div className="mt-2">
@@ -117,7 +117,7 @@ export default function SignUp() {
                 htmlFor="password"
                 className="block text-sm font-medium leading-6 text-white-900"
               >
-                Certo, agora é só confirmar a sua senha
+                E confirmar ela pra gente
               </label>
 
               <div className="mt-2">
