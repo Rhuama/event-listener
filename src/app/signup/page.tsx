@@ -117,7 +117,7 @@ export default function SignUp() {
                 htmlFor="password"
                 className="block text-sm font-medium leading-6 text-white-900"
               >
-                E confirmar ela pra gente
+                E confirmar ela
               </label>
 
               <div className="mt-2">
