@@ -26,11 +26,12 @@
 
 Este projeto é resultado do desafio lançado pela Orange Juice em seu segundo hackathon. A ideia é pautada na criação de uma aplicação de calendário que liste eventos do setor de Tecnologia em categorias múltiplas: diversos lugares, gratuitos, pagos, etc. 
 
+# Status do projeto
 
-# :construction: Projeto finalizado :construction:
+:construction: Projeto finalizado :construction:
 
 
-# :hammer: Funcionalidades do projeto
+# :hammer: Funcionalidades e Demonstração da Aplicação
 
 - `Funcionalidade 1`: Realizar login na aplicação;
 - `Funcionalidade 2`: Vincular a agenda pessoal à agenda de eventos na área de Tecnologia;
