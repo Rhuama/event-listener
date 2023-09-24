@@ -92,8 +92,12 @@ Este projeto só foi desenvolvido devido à inicitiva da Orange Juice, então, n
 
 ![orange_juice_250](https://github.com/Rhuama/event-listener/assets/97490698/f3cc578e-9d14-42cc-85bd-2c74f6a3c953)
 
+---
 
 
+
+
+Feito com :orange_heart: pelo squad 10!
 
 
 
