@@ -1,13 +1,8 @@
-export default function Example() {
+export default function login() {
     return (
       <>
         <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
           <div className="sm:mx-auto sm:w-full sm:max-w-sm flex flex-col items-center justify-center">
-            <image
-              className="inline-block h-10 w-10 rounded-full"
-              src="Icon-handle-event.png"
-              alt="Ícone da página handleEvent"
-            />
             <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-whrite-900">
               Bem vindo de volta!
             </h2>
@@ -38,7 +33,7 @@ export default function Example() {
                     Senha
                   </label>
                   <div className="text-sm">
-                    <a href="#" className="font-semibold text-orange-600 hover:text-orange-500">
+                    <a href="/password-reset" className="font-semibold text-orange-600 hover:text-orange-500">
                       Esqueceu a senha?
                     </a>
                   </div>
@@ -67,7 +62,7 @@ export default function Example() {
 
             <p className="mt-10 text-center text-sm text-gray-500">
               Não tem cadastro?{' '}
-              <a href="#" className="font-semibold leading-6 text-orange-600 hover:text-orange-500">
+              <a href="/signup" className="font-semibold leading-6 text-orange-600 hover:text-orange-500">
                 Cadastre-se
               </a>
             </p>
