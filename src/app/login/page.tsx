@@ -7,10 +7,10 @@ import { useState } from "react";
 import { auth } from "@/firebase/firebase";
 import { useRouter } from "next/navigation";
 
-export default function Example() {
+export default function login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-
+  
   const router = useRouter();
 
   const [signInWithEmailAndPassword, user, loading, error] =
@@ -29,6 +29,7 @@ export default function Example() {
   if (user) {
     return console.log(user);
   }
+
 
   return (
     <>
@@ -60,6 +61,27 @@ export default function Example() {
                   required
                   className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 p-2 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
+              <div>
+                <div className="flex items-center justify-between">
+                  <label htmlFor="password" className="block text-sm font-medium leading-6 text-whrite-900">
+                    Senha
+                  </label>
+                  <div className="text-sm">
+                    <a href="/password-reset" className="font-semibold text-orange-600 hover:text-orange-500">
+                      Esqueceu a senha?
+                    </a>
+                  </div>
+                </div>
+                <div className="mt-2">
+                  <input
+                    id="password"
+                    name="password"
+                    type="password"
+                    autoComplete="current-password"
+                    required
+                    className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 p-2 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                  />
+                </div>
               </div>
             </div>
 
@@ -112,6 +134,13 @@ export default function Example() {
               Cadastre-se
             </a>
           </p>
+            <p className="mt-10 text-center text-sm text-gray-500">
+              Não tem cadastro?{' '}
+              <a href="/signup" className="font-semibold leading-6 text-orange-600 hover:text-orange-500">
+                Cadastre-se
+              </a>
+            </p>
+          </div>
         </div>
       </div>
     </>

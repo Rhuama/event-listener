@@ -128,6 +128,12 @@ export default function SignUp() {
             Cadastrar
           </button>
         </div>
+        <p className="mt-10 text-center text-sm text-gray-500">
+          Já tem cadastro?{' '}
+          <a href="/login" className="font-semibold leading-6 text-orange-600 hover:text-orange-500">
+            Entrar
+          </a>
+        </p>
       </div>
     </>
   );
